@@ -40,16 +40,16 @@ function AboutHomePage() {
               {/* Stats Section */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="space-y-2">
-                  <p className="text-4xl font-bold text-orange-500">91K+</p>
-                  <p className="text-sm text-gray-600">Project Done</p>
+                  <p className="text-4xl font-bold text-orange-500">20+</p>
+                  <p className="text-sm text-gray-600">Locations in NE</p>
                 </div>
                 <div className="space-y-2">
                   <p className="text-4xl font-bold text-orange-500">84K+</p>
-                  <p className="text-sm text-gray-600">Happy Clients</p>
+                  <p className="text-sm text-gray-600">Happy Customers</p>
                 </div>
                 <div className="space-y-2">
-                  <p className="text-4xl font-bold text-orange-500">42+</p>
-                  <p className="text-sm text-gray-600">Company Support</p>
+                  <p className="text-4xl font-bold text-orange-500">50+</p>
+                  <p className="text-sm text-gray-600">Unique Products</p>
                 </div>
                 <div className="space-y-2">
                   <p className="text-4xl font-bold text-orange-500">4.7</p>
