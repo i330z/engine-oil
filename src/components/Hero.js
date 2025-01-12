@@ -1,7 +1,7 @@
 import React from 'react'
 // import Video from 'next-video'
 // import awesomeVideo from '/videos/one-video.mp4'
-import video from  '/videos/one-video.mp4'
+// import video from  '/videos/one-video.mp4'
 import { BatteryCharging, Wind, Droplet, Truck } from 'lucide-react'
 
 function Hero() {

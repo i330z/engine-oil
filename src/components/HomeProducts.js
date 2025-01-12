@@ -2,58 +2,70 @@
 'use client';
 
 import { ShoppingCart, Star } from 'lucide-react';
+import One from '@/assets/one.png';
+import Two from '@/assets/two.png';
+import Three from '@/assets/three.png';
+import Four from '@/assets/four.png';
+import Five from '@/assets/five.png';
+import Six from '@/assets/six.png';
 const products = [
   {
     id: 1,
-    name: "Synthetic Pro Max",
+    name: "Diesel Exhaust Fluid",
     description: "Full synthetic engine oil for maximum performance",
     price: 49.99,
-    image: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+    // image: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+    image: One,
     rating: 4.8,
     viscosity: "5W-30"
   },
   {
     id: 2,
-    name: "Ultra Guard",
+    name: "Coolant",
     description: "Advanced protection for high-mileage engines",
     price: 39.99,
-    image: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-pride-4t-ultra-plus-engine-oil.webp?VersionId=fcIAxnci5a7IxIHwzWqIr4BKr90Hg50O",
+    // image: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-pride-4t-ultra-plus-engine-oil.webp?VersionId=fcIAxnci5a7IxIHwzWqIr4BKr90Hg50O",
+    image: Two,
     rating: 4.6,
     viscosity: "10W-40"
   },
   {
     id: 3,
-    name: "Eco Performance",
+    name: "Hydraulic Oil",
     description: "Eco-friendly synthetic blend for modern engines",
     price: 44.99,
-    image: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+    // image: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+    image: Three,
     rating: 4.7,
     viscosity: "0W-20"
   },
   {
     id: 4,
-    name: "Racing Formula",
+    name: "Bike Engine Oil",
     description: "High-performance oil for sports vehicles",
     price: 59.99,
-    image: "https://champol.com/wp-content/uploads/2023/07/Engine_Oil_20w40_Group.jpg",
+    // image: "https://champol.com/wp-content/uploads/2023/07/Engine_Oil_20w40_Group.jpg",
+    image: Four,
     rating: 4.9,
     viscosity: "15W-50"
   },
   {
     id: 5,
-    name: "Diesel Master",
+    name: "Car Engine Oil",
     description: "Specialized formula for diesel engines",
     price: 54.99,
-    image: "https://champol.com/wp-content/uploads/2023/07/Engine_Oil_20w40_1-Ltr.jpg",
+    // image: "https://champol.com/wp-content/uploads/2023/07/Engine_Oil_20w40_1-Ltr.jpg",
+    image: Five,
     rating: 4.7,
     viscosity: "5W-40"
   },
   {
     id: 6,
-    name: "Essential Blend",
+    name: "Truck Engine Oil",
     description: "Reliable protection for everyday driving",
     price: 34.99,
-    image: "https://champol.com/wp-content/uploads/2023/07/Champol_10W30_4T-Engine-Oil-800-1.jpg",
+    // image: "https://champol.com/wp-content/uploads/2023/07/Champol_10W30_4T-Engine-Oil-800-1.jpg",
+    image: Six,
     rating: 4.5,
     viscosity: "10W-30"
   }
@@ -76,9 +88,9 @@ function HomeProducts() {
             >
               <div className="relative h-96">
                 <img
-                  src={product.image}
+                  src={product.image.src}
                   alt={product.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain bg-[#C9C9C9]"
                 />
                 
               </div>

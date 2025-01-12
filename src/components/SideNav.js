@@ -1,5 +1,5 @@
 "use client"
-import { Home, Box, Phone, Info, Menu } from 'lucide-react';
+import { Home, Box, Phone, Info, Menu, Settings } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -14,7 +14,7 @@ export default function SideNav() {
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
         >
           <Menu className="w-6 h-6" />
-          {isSidebarOpen && <span>Engine Oil</span>}
+          {isSidebarOpen && <span>Centrol</span>}
         </button>
         <nav className="flex flex-col p-4 space-y-6 flex-grow justify-center">
           <Link href="#" className="flex items-center space-x-2 hover:text-yellow-500">
@@ -24,6 +24,10 @@ export default function SideNav() {
           <Link href="#" className="flex items-center space-x-2 hover:text-yellow-500">
             <Box className="w-8 h-8" />
             {isSidebarOpen && <span>Product</span>}
+          </Link>
+          <Link href="#" className="flex items-center space-x-2 hover:text-yellow-500">
+            <Settings className="w-8 h-8" /> {/* Changed icon to Settings */}
+            {isSidebarOpen && <span>Services</span>}
           </Link>
           <Link href="#" className="flex items-center space-x-2 hover:text-yellow-500">
             <Phone className="w-8 h-8" />

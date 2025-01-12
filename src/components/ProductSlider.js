@@ -3,45 +3,56 @@ import Image from "next/image";
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
 import { FreeMode, Autoplay } from "swiper/modules";
 import Link from "next/link";
+
+
+import One from '@/assets/one.png';
+import Two from '@/assets/two.png';
+import Three from '@/assets/three.png';
+import Four from '@/assets/four.png';
+import Five from '@/assets/five.png';
+import Six from '@/assets/six.png';
 
 function HomeProductSlider({ productlist = [] }) {
   // Dummy products
   const dummyProducts = [
     {
       slug: "luxury-rose-perfume",
-      src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      src: One,
       alt: "Luxury Rose Perfume",
       title: "Engine Oil",
     },
     {
       slug: "citrus-fresh-scent",
-      src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      src: Two,
       alt: "Citrus Fresh Scent",
       title: "Engine oil",
     },
     {
       slug: "woody-spice-blend",
-      src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      src: Three,
       alt: "Woody Spice Blend",
       title: "Engine Oil",
     },
     {
       slug: "vanilla-amber-delight",
-      src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      src: Four,
       alt: "Vanilla Amber Delight",
       title: "Engine Oil",
     },
     {
       slug: "floral-bouquet-eau",
-      src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
+      src: Five,
       alt: "Floral Bouquet Eau",
       title: "Engine Oil",
     },
