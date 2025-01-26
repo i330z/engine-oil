@@ -9,7 +9,7 @@ function AboutHomePage() {
               {/* Header Section */}
               <div className="space-y-6">
                 <span className="text-orange-500 font-semibold">WHO WE ARE</span>
-                <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                   Powering Progress Through Eco-Friendly Energy.
                 </h1>
                 <p className="text-gray-600">

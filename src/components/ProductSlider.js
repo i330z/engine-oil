@@ -68,10 +68,10 @@ function HomeProductSlider({ productlist = [] }) {
           <span className="uppercase text-crimson mb-2 inline-block tracking-widest text-yellow-500">
           Premium Engine Oils
           </span>
-          <h2 className="md:text-6xl text-5xl mb-5 font-crimson font-semibold">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl mb-5 font-crimson font-semibold">
           Engineered for Excellence
           </h2>
-          <p className="text-xl text-gray-600 font-manrope">
+          <p className="lg:text-xl text-md text-gray-600 font-manrope">
           Designed for Efficiency, Trusted for Protection.
           </p>
         </div>

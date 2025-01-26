@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} h-full`}>
         <div className="flex h-full">
-          <SideNav />
-          <main>
+          {/* <SideNav /> */}
+          <main className="flex-1">
             {/* <Header /> */}
             {children}
           </main>
