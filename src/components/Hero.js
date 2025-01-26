@@ -11,7 +11,7 @@ function Hero() {
             {/* <video src={awesomeVideo} />; */}
             <video src="https://videos.pexels.com/video-files/7564888/7564888-uhd_2732_1440_25fps.mp4" className='absolute top-0 left-0 w-full h-full object-cover' autoPlay loop muted></video>
             <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-900 to-transparent'></div>
-            <div className='absolute top-0 left-0 h-full flex flex-col justify-center lg:p-32 p-10 lg:w-8/12'>
+            <div className='absolute top-0 left-0 h-full flex flex-col justify-center lg:p-32 lg:w-8/12 px-5'>
                 <span className='text-yellow-500 lg:text-lg text-xl tracking-wider'>ENGINE OIL</span>
                 <h1 className='text-white lg:text-7xl text-5xl font-bold'>Powering Performance, Protecting Engines</h1>
                 <p className='text-gray-50 lg:text-xl mt-5'>Premium Engine Oils for Unmatched Durability</p>

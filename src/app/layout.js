@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} h-full`}>
-        <div className="flex h-full">
-          {/* <SideNav /> */}
+        <div className="lg:flex lg:h-full">
+          <SideNav />
           <main className="flex-1">
             {/* <Header /> */}
             {children}
