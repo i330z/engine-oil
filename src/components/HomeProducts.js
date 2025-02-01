@@ -93,7 +93,7 @@ function HomeProducts() {
                 <img
                   src={product.image.src}
                   alt={product.name}
-                  className="w-full h-full bg-[#C9C9C9] object-cover"
+                  className="w-full h-full bg-white object-contain"
                 />
                 
               </div>
