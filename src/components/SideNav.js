@@ -54,7 +54,7 @@ export default function SideNav() {
               <Home className="w-8 h-8 mr-3" />
               {isSidebarOpen && <span>Home</span>}
             </Link>
-            <Link href="/products" className="flex items-center space-x-2 hover:text-yellow-500">
+            <Link href="/" className="flex items-center space-x-2 hover:text-yellow-500">
               <Box className="w-8 h-8 mr-3" />
               {isSidebarOpen && <span>Products</span>}
             </Link>

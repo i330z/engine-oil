@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} h-full`}>
         <div className="lg:flex lg:h-full">
           <SideNav />
-          <main className="flex-1">
+          <main className="lg:flex-1 lg:overflow-y-auto ">
             {/* <Header /> */}
             {children}
           </main>

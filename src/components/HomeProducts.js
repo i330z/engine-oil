@@ -8,6 +8,9 @@ import Three from '@/assets/three.png';
 import Four from '@/assets/four.png';
 import Five from '@/assets/five.png';
 import Six from '@/assets/six.png';
+import { homeProduct } from '@/constants/data';
+
+
 const products = [
   {
     id: 1,
@@ -81,7 +84,7 @@ function HomeProducts() {
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {products.map((product) => (
+          {homeProduct.map((product) => (
             <div
               key={product.id}
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
@@ -90,7 +93,7 @@ function HomeProducts() {
                 <img
                   src={product.image.src}
                   alt={product.name}
-                  className="w-full h-full object-contain bg-[#C9C9C9]"
+                  className="w-full h-full bg-[#C9C9C9] object-cover"
                 />
                 
               </div>
