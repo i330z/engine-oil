@@ -48,7 +48,8 @@ export const productList = [
             "210l",
             "1000l"
         ],
-        page_no: 1
+        page_no: 1,
+        slug: "desiel-exhaust-fluid"
     },
     {
         page_title: "READY-TO-USE",
@@ -61,7 +62,8 @@ export const productList = [
             "1l",
             "5l"
         ],
-        page_no: 2
+        page_no: 2,
+        slug: "ready-to-use"
     },
     {
         page_title: "CONCENTRATED 1:3",
@@ -74,7 +76,8 @@ export const productList = [
             "1l",
             "5l"
         ],
-        page_no: 3
+        page_no: 3,
+        slug: "concentrated-1-3"
     },
     {
         page_title: "MP3 GREASE (MULTI PURPOSE)",
@@ -94,7 +97,8 @@ export const productList = [
             "18kg",
             "180kg"
         ],
-        page_no: 4
+        page_no: 4,
+        slug: "mp3-grease-multi-purpose"
     },
     {
         page_title: "APLR GREASE (ALL PURPOSE LONG RUN) LITHIUM GOLD",
@@ -114,7 +118,8 @@ export const productList = [
             "18kg",
             "180kg"
         ],
-        page_no: 5
+        page_no: 5,
+        slug: "aplr-grease-all-purpose-long-run-lithium-gold"
     },
     {
         page_title: "RED GEL GREASE",
@@ -134,7 +139,8 @@ export const productList = [
             "18kg",
             "180kg"
         ],
-        page_no: 6
+        page_no: 6,
+        slug: "red-gel-grease"
     },
     {
         page_title: "CHASSIS GREASE",
@@ -148,7 +154,8 @@ export const productList = [
             "18kg",
             "180kg"
         ],
-        page_no: 7
+        page_no: 7,
+        slug: "chassis-grease"
     },
     {
         page_title: "ANTI-WEAR 68 HYDRAULIC OIL",
@@ -166,7 +173,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 8
+        page_no: 8,
+        slug: "anti-wear-68-hydraulic-oil"
     },
     {
         page_title: "PSO 20W40 API CF PUMP SET OIL",
@@ -180,7 +188,8 @@ export const productList = [
             "3.5l",
             "5l"
         ],
-        page_no: 9
+        page_no: 9,
+        slug: "pso-20w40-api-cf-pump-set-oil"
     },
     {
         page_title: "MATRIX 4T 20W40 API SN",
@@ -192,7 +201,8 @@ export const productList = [
             "0.9l",
             "1l"
         ],
-        page_no: 10
+        page_no: 10,
+        slug: "matrix-4t"
     },
     {
         page_title: "APEX 4T 20W40 API SL",
@@ -204,7 +214,8 @@ export const productList = [
             "900ml",
             "1l"
         ],
-        page_no: 11
+        page_no: 11,
+        slug: "apex-4t"
     },
     {
         page_title: "DELUX 4T 10W30 API SL",
@@ -217,7 +228,8 @@ export const productList = [
             "900ml",
             "1l"
         ],
-        page_no: 12
+        page_no: 12,
+        slug: "delux-4t"
     },
     {
         page_title: "NITROX 4T 10W40 API SN",
@@ -229,7 +241,8 @@ export const productList = [
             "900ml",
             "1l"
         ],
-        page_no: 13
+        page_no: 13,
+        slug: "nitrox-4t"
     },
     {
         page_title: "2 STROKE ENGINE OIL",
@@ -243,7 +256,8 @@ export const productList = [
             "900ml",
             "1l"
         ],
-        page_no: 14
+        page_no: 14,
+        slug: "runner-2t"
     },
     {
         page_title: "SPEEDGUN 4T 15W50 API SN",
@@ -255,7 +269,8 @@ export const productList = [
             "1.7L",
             "2.5L"
         ],
-        page_no: 15
+        page_no: 15,
+        slug: "speedgun-4t"
     },
     {
         page_title: "5W30 API SN/CF COSMOS",
@@ -271,7 +286,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 16
+        page_no: 16,
+        slug: "cosmos"
     },
     {
         page_title: "VELOCITY | 5W40 API SN/CF",
@@ -286,7 +302,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 17
+        page_no: 17,
+        slug: "velocity"
     },
     {
         page_title: "VORTEX | 15W40 API CI4+",
@@ -301,7 +318,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 18
+        page_no: 18,
+        slug: "vortex"
     },
     {
         page_title: "FALCON | 20W50 API SM/CF",
@@ -316,7 +334,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 19
+        page_no: 19,
+        slug: "falcon"
     },
     {
         page_title: " BOOSTER | 20W40 API CH4 BOOSTER",
@@ -337,7 +356,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 20
+        page_no: 20,
+        slug: "booster"
     },
     {
         page_title: "15W40 API CI4",
@@ -358,7 +378,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 21
+        page_no: 21,
+        slug: "turbo"
     },
     {
         page_title: "15W40 API CF4",
@@ -379,7 +400,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 22   
+        page_no: 22,
+        slug: "sonic"
     },
     {
         page_title: "TRACTOR KING",
@@ -391,7 +413,8 @@ export const productList = [
             "7.5ℓ",
             "10ℓ"
         ],
-        page_no: 23
+        page_no: 23,
+        slug: "tractor-king-20w-40-api-cf4"
     },
     {
         page_title: "Automatic Transmission Fluid",
@@ -407,7 +430,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 24
+        page_no: 24,
+        slug: "automatic-transmission-fluid"
     },
     {
         page_title: "EP-90 API GL4",
@@ -427,7 +451,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 25
+        page_no: 25,
+        slug: "gear-oil-ep-90-api-gl4"
     },
     {
         page_title: "EP-140 API GL4",
@@ -443,7 +468,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 26
+        page_no: 26,
+        slug: "gear-oil-ep-140-api-gl4"
     },
     {
         page_title: "85W140 API GL5",
@@ -459,7 +485,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 27
+        page_no: 27,
+        slug: "gear-oil-85w140-api-gl5"
     },
     {
         page_title: "75W90 API GL5",
@@ -475,7 +502,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 28
+        page_no: 28,
+        slug: "gear-oil-75w90-api-gl5"
     },
     {
         page_title: "80W90 API GL5",
@@ -491,7 +519,8 @@ export const productList = [
             "50l",
             "210l"
         ],
-        page_no: 29
+        page_no: 29,
+        slug: "gear-oil-80w90-api-gl5"
     },
     {
         page_title: "UTTO 20W",
@@ -504,7 +533,8 @@ export const productList = [
             "10L",
             "20L"
         ],
-        page_no: 30
+        page_no: 30,
+        slug: "utto-20w"
     }
 ]
 
@@ -570,3 +600,7 @@ export const homeProduct = [
         "description": "Oil used in power steering systems to ensure smooth operation."
     }
 ]
+
+export const getProductBySlug = (slug) => {
+    return productList.find(product => product.slug === slug);
+};

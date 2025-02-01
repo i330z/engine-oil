@@ -1,6 +1,7 @@
 import React from 'react'
 import {productList} from '@/constants/data'
 import Image from 'next/image'
+import Link from 'next/link';
 
 function ProductPage() {
     const groupedProducts = productList.reduce((acc, product) => {
@@ -27,11 +28,13 @@ function ProductPage() {
                                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
                                     {
                                         groupedProducts[category].map((product, index) => (
+                                            <Link href={`/products/${product.slug}`} key={index}>
                                             <div key={index} className='col-span-1 p-4 relative rounded-md bg-gray-100/50'>
                                                 <Image src={product.image.src} alt={product.name} width={400} height={400} className='w-full h-98 object-contain rounded-md'/>
                                                 <h3 className='text-xl font-semibold text-gray-900 my-2'>{product.page_title}</h3>
                                                 <h4 className='text-md font-semibold text-gray-400 my-2'>{product.page_product}</h4>
                                             </div>
+                                            </Link>
                                         ))
                                     }
                                 </div>
