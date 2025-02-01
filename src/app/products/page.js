@@ -23,13 +23,14 @@ function ProductPage() {
                     {
                         Object.keys(groupedProducts).map((category, index) => (
                             <div key={index}>
-                                <h2 className='text-3xl font-bold text-gray-900 mb-6 mt-10'>{category}</h2>
+                                <h2 className='text-3xl font-semibold text-gray-900 mb-6 mt-10 tracking-wider'>{category}</h2>
                                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
                                     {
                                         groupedProducts[category].map((product, index) => (
-                                            <div key={index} className='col-span-1 shadow-lg p-4 relative rounded-md'>
-                                                <Image src={product.image.src} alt={product.name} width={400} height={400} className='w-full h-98 object-contain'/>
-                                                <h3 className='text-xl font-semibold text-gray-900 mb-2'>{product.page_title}</h3>
+                                            <div key={index} className='col-span-1 p-4 relative rounded-md bg-gray-100/50'>
+                                                <Image src={product.image.src} alt={product.name} width={400} height={400} className='w-full h-98 object-contain rounded-md'/>
+                                                <h3 className='text-xl font-semibold text-gray-900 my-2'>{product.page_title}</h3>
+                                                <h4 className='text-md font-semibold text-gray-400 my-2'>{product.page_product}</h4>
                                             </div>
                                         ))
                                     }

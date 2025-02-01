@@ -20,6 +20,19 @@ import hydralics from '../assets/products/hydralics.jpg'
 import steeringoil from '../assets/products/steeringoil.jpg'
 import tracktor from '../assets/products/tracktor.jpg'
 import truckoil from '../assets/products/truckoil.jpg'
+import aplr from '../assets/products/aplr.jpg'
+import redgel from '../assets/products/redgel.jpg'
+import chassis from '../assets/products/chassis.jpg'
+import speedgun from '../assets/products/speedgun.jpg'
+import nitrox from '../assets/products/nitrox.jpg'
+import matrix from '../assets/products/matrix.jpg'
+import apex from '../assets/products/apex.jpg'
+import runner from '../assets/products/runner.jpg'
+import gearoilapi from '../assets/products/gearoilapi.jpg'
+import gearoil80w90 from '../assets/products/gearoil80w90.jpg'
+import gearoil75w90 from '../assets/products/gearoil75w90.jpg'
+import gearoil85w140 from '../assets/products/gearoil85w140.jpg'
+import gearoilep140 from '../assets/products/gearoilep140.jpg'
 
 export const productList = [
     {
@@ -68,7 +81,7 @@ export const productList = [
         page_content: "CENTROL MP3 GREASE are premium quality calcium based multipurpose automotive greases manufactured from superior quality base stocks with specially selected additives and are having high drop points, good thermal stability, resistance to oxidation and structural stability. These greases provide protection against rust, corrosion and water wash out. Suitable for all types of automotive applications as excellent multipurpose greases, like plain and anti-friction bearings of passenger cars, trucks, tractors, earth moving equipment etc.",
         page_category: "GREASE",
         page_product: "CALCIUM WHITE",
-        image: '',
+        image: grease,
         available_sizes: [
             "50gm",
             "100gm",
@@ -88,7 +101,7 @@ export const productList = [
         page_content: "CENTROL APLR-35000 grease is an enhanced version of regular lithium soap based grease, manufactured from specially selected base oils with good quality raw materials and additives for excellent shear stability to enhance the re-lubrication interval of bearings above 35,000 kms under ideal road conditions. Suitable for all types of automotive applications as excellent multipurpose greases, like plain and anti-friction bearings of passenger cars, trucks, tractors, earth moving equipment etc.",
         page_category: "GREASE",
         page_product: "APLR-35000",
-        image: '',
+        image: aplr,
         available_sizes: [
             "50gm",
             "100gm",
@@ -108,7 +121,7 @@ export const productList = [
         page_content: "Centrol Red Gel Grease specially developed for the automotive segment to meet the requirements of a long life gel grease. It is formulated with synthetic base oils, specially thinker technology and high performance additives to fulfill the mechanical and thermal requirements of automotive wheel hubs and extreme performance conditions.",
         page_category: "GREASE",
         page_product: "LITHIUM RED",
-        image: '',
+        image: redgel,
         available_sizes: [
             "50gm",
             "100gm",
@@ -128,7 +141,7 @@ export const productList = [
         page_content: "CENTROL CHASSIS GREASE is premium quality calcium based automotive grease manufactured from superior quality base stocks and specially selected additives. This GREASE is having moderately high drop points, resistance to oxidation, good thermal and structural stability. Suitable for the lubrication of chassis of all types of automotive vehicles, passenger and commercial vehicles, tractors and other heavy duty earth moving equipment.",
         page_category: "GREASE",
         page_product: "CALCIUM BLACK",
-        image: '',
+        image: chassis,
         available_sizes: [
             "1kg",
             "5kg",
@@ -142,7 +155,7 @@ export const productList = [
         page_content: "CENTROL AW-68 contain a special thermally stable additive (ZDDP) which inhibits oxidation, protects bearings from corrosion and prevents wear. It provides excellent performance in vane pumps and high-pressure systems. It caters for most hydraulic equipment, such as machine tools, earthmoving equipment, forklifts, hydraulic presses, rams and extruders.",
         page_category: "SPECIALTY OILS",
         page_product: "HYDRAULIC OIL",
-        image: '',
+        image: hydralics,
         available_sizes: [
             "1l",
             "5l",
@@ -170,11 +183,11 @@ export const productList = [
         page_no: 9
     },
     {
-        page_title: "20W40 API SN",
+        page_title: "MATRIX 4T 20W40 API SN",
         page_content: "MATRIX 4T 20W-40 is universal oil for Engine, Clutch and Gear of Motorcycles. It is formulated to meet the performance requirements of OEMs. This is all season engine oil is specially developed to meet frictional requirements of latest high performance air-cooled 4 Stroke motorcycles.",
         page_category: "BIKE ENGINE OILS",
         page_product: "MATRIX 4T",
-        image: '',
+        image: matrix,
         available_sizes: [
             "0.9l",
             "1l"
@@ -182,11 +195,11 @@ export const productList = [
         page_no: 10
     },
     {
-        page_title: "20W40 API SL",
+        page_title: "APEX 4T 20W40 API SL",
         page_content: "APEX 4T 20W-40 (SYNTH) is a 3 in one ECG Motorcycle & Scooter Engine oil manufactured for all type of new generation air cooled Engines. It is recommended for 10000 Kms under ideal conditions. It also provides Excellent wear and oxidation protection & meets Valve Train wear requirements of API SM. It exceeds the most stringent performances requirements of JASO MA2.",
         page_category: "BIKE ENGINE OILS",
         page_product: "APEX 4T",
-        image: '',
+        image: apex,
         available_sizes: [
             "900ml",
             "1l"
@@ -194,11 +207,11 @@ export const productList = [
         page_no: 11
     },
     {
-        page_title: "10W30 API SL",
+        page_title: "DELUX 4T 10W30 API SL",
         page_content: "DELUX 4T 10W-30 is a new generation, maximum performance low-viscosity oil, which can be used round the year for 4 Stroke engines of 2 wheelers using petrol as fuel. A specially developed additive technology it act as universal 3-in-1 oil for Engines, Clutch and Gear of Motorcycles. It is formulated to meet performance requirements of OEMs.",
         page_category: "BIKE ENGINE OILS",
         page_product: "DELUX 4T",
-        image:'',
+        image:bikeoil,
         available_sizes: [
             "800ml",
             "900ml",
@@ -207,11 +220,11 @@ export const productList = [
         page_no: 12
     },
     {
-        page_title: "10W40 API SN",
+        page_title: "NITROX 4T 10W40 API SN",
         page_content: "CENTROL NITROX 4T 10W40 API SN is a new generation, maximum performance low-viscosity oil, which can be used round the year for 4 Stroke engines of 2 wheelers using petrol as fuel. A specially developed additive technology it act as universal 3-in-1 oil for Engines, Clutch and Gear of Motorcycles. It is formulated to meet performance requirements of OEMs.",
         page_category: "BIKE ENGINE OILS",
         page_product: "NITROX 4T",
-        image:'',
+        image:nitrox,
         available_sizes: [
             "900ml",
             "1l"
@@ -223,7 +236,7 @@ export const productList = [
         page_content: "RUNNER 2T is a new generation semi-synthetic, extremely low smoke, environmentally friendly two stroke engine oil. It is blended from highly refined mineral base oils, special synthetic base fluid and fortified with finely balanced low ash additives.",
         page_category: "BIKE ENGINE OILS",
         page_product: "RUNNER 2T",
-        image:'',
+        image:runner,
         available_sizes: [
             "500ml",
             "800ml",
@@ -233,11 +246,11 @@ export const productList = [
         page_no: 14
     },
     {
-        page_title: "15W50 API SN",
+        page_title: "SPEEDGUN 4T 15W50 API SN",
         page_content: "SPEEDGUN 4T 15W-50 is manufactured from the finest Group II base stocks and state of the art additive technology to meet the most stringent requirements of API SM/SN as well as JASO MA 2 specifications. It provides superior protection for engine, clutch and gears of the high powered Motor Cycles, especially those with engine displacement of 350 cc and above.",
         page_category: "BIKE ENGINE OILS",
         page_product: "SPEEDGUN 4T",
-        image:'',
+        image:speedgun,
         available_sizes: [
             "1.7L",
             "2.5L"
@@ -261,7 +274,7 @@ export const productList = [
         page_no: 16
     },
     {
-        page_title: "5W40 API SN/CF",
+        page_title: "VELOCITY | 5W40 API SN/CF",
         page_content: "VELOCITY 5W-40 utilizes the positive properties of tungsten to smooth the surface structure of the motor, reducing friction and wear, and significantly improving mechanical efficiency. 5W-40 minimizes friction, wear and fuel consumption with excellent cold start characteristics.",
         page_category: "CAR ENGINE OILS",
         page_product: "VELOCITY",
@@ -276,7 +289,7 @@ export const productList = [
         page_no: 17
     },
     {
-        page_title: "15W40 API CI4+",
+        page_title: "VORTEX | 15W40 API CI4+",
         page_content: "VORTEX 15W40 is an extended drain engine oil for modern, low emission Diesel Engines meeting BS IV / EURO IV emission norms for new generation models of Passenger Cars powered with latest technology Diesel Engines. Recommended for use with Diesel fuels ranging in sulphur content upto 0.5% by weight.",
         page_category: "CAR ENGINE OILS",
         page_product: "VORTEX",
@@ -291,7 +304,7 @@ export const productList = [
         page_no: 18
     },
     {
-        page_title: "20W50 API SM/CF",
+        page_title: "FALCON | 20W50 API SM/CF",
         page_content: "FALCON CNG 20W50 API SM/CF are gas engine oils intended for use in light-duty vehicles running on Compressed Natural Gas (CNG), Liquefied Petroleum Gas (LPG) or propane. It is formulated from selected additives to provide superior detergency and dispersancy, oxidation and nitration resistance and protection against engine wear and corrosion.",
         page_category: "CAR ENGINE OILS",
         page_product: "FALCON",
@@ -306,11 +319,11 @@ export const productList = [
         page_no: 19
     },
     {
-        page_title: "20W40 API CH4 BOOSTER",
+        page_title: " BOOSTER | 20W40 API CH4 BOOSTER",
         page_content: "CENTROL BOOSTER 20W40 API CH4 are essential for the longevity of modern engines as the oil needs to be capable of giving the best possible protection, when both hot and cold. Recommended for use: Tata Motor, Isuzu, Mahindra & Mahindra, Maruti Suzuki, Hyundai, VW, Skoda, Ford, Honda, Toyota etc.",
         page_category: "TRUCK ENGINE OILS",
         page_product: "BOOSTER",
-        image:'',
+        image:booster,
         available_sizes: [
             "0.5l",
             "1l",
@@ -385,7 +398,7 @@ export const productList = [
         page_content: "ATF/TQ Type-A is formulated to meet General motors\\' ATF Type A Suffix A Specifications. Ideal for automatic transmission and power steering units manufactured by ZF, Rane etc. where TYPE A is specified. It is also recommended for manual transmission and hydraulic systems where such type of fluid is specified.",
         page_category: "STEERING OILS",
         page_product: "ATF TQ",
-        image: '',
+        image: steeringoil,
         available_sizes: [
             "0.5l",
             "1l",
@@ -401,7 +414,7 @@ export const productList = [
         page_content: "CENTROL GEAR OIL EP-90 API GL4 is a premium quality extreme pressure multi-grade gear oil blended from highly solvent refined base stocks and fortified with carefully selected extreme pressure additives package to provide unmatched extreme pressure protection, anti-rust, anti-corrosion and anti-oxidation properties.",
         page_category: "TRANSMISSION OILS",
         page_product: "GEAR OIL",
-        image:'',
+        image:gearoilapi,
         available_sizes: [
             "0.5l",
             "1l",
@@ -421,7 +434,7 @@ export const productList = [
         page_content: "CENTROL GEAR OIL EP-140 API GL4 is a premium quality extreme pressure multi-grade gear oil blended from highly solvent refined base stocks and fortified with carefully selected extreme pressure additives package to provide unmatched extreme pressure protection, anti-rust, anti-corrosion and anti-oxidation properties.",
         page_category: "TRANSMISSION OILS",
         page_product: "GEAR OIL",
-        image:'',
+        image:gearoilep140,
         available_sizes: [
             "1l",
             "5l",
@@ -437,7 +450,7 @@ export const productList = [
         page_content: "CENTROL GEAR OIL 85W140 API GL5 is a premium quality extreme pressure multi-grade gear oil blended from highly solvent refined base stocks and fortified with carefully selected extreme pressure additives package to provide unmatched extreme pressure protection, anti-rust, anti-corrosion and anti-oxidation properties.",
         page_category: "TRANSMISSION OILS",
         page_product: "GEAR OIL",
-        image:'',
+        image:gearoil85w140,
         available_sizes: [
             "1l",
             "5l",
@@ -453,7 +466,7 @@ export const productList = [
         page_content: "CENTROL GEAR OIL 75W90 API GL5 is a premium quality extreme pressure multi-grade gear oil blended from highly solvent refined base stocks and fortified with carefully selected extreme pressure additives package to provide unmatched extreme pressure protection, anti-rust, anti-corrosion and anti-oxidation properties.",
         page_category: "TRANSMISSION OILS",
         page_product: "GEAR OIL",
-        image:'',
+        image:gearoil75w90,
         available_sizes: [
             "2.5l",
             "5l",
@@ -469,7 +482,7 @@ export const productList = [
         page_content: "CENTROL GEAR OIL 80W90 API GL5 is a premium quality extreme pressure multi-grade gear oil blended from highly solvent refined base stocks and fortified with carefully selected extreme pressure additives package to provide unmatched extreme pressure protection, anti-rust, anti-corrosion and anti-oxidation properties.",
         page_category: "TRANSMISSION OILS",
         page_product: "GEAR OIL",
-        image:'',
+        image:gearoil80w90,
         available_sizes: [
             "1l",
             "2.5l",
