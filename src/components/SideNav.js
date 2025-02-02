@@ -74,7 +74,7 @@ export default function SideNav() {
               <Phone className="w-8 h-8 mr-3" />
               {isSidebarOpen && <span>Contact</span>}
             </Link>
-            <Link href="#" className={`flex items-center space-x-2 ${activeLink === '/about' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/about')}>
+            <Link href="/about" className={`flex items-center space-x-2 ${activeLink === '/about' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/about')}>
               <Info className="w-8 h-8 mr-3" />
               {isSidebarOpen && <span>About</span>}
             </Link>
