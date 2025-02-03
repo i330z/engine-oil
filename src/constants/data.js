@@ -546,7 +546,7 @@ export const homeProduct = [
         "description": "A solution used in diesel vehicles to reduce harmful emissions."
     },
     {
-        "name": "Coolant",
+        "name": "Engine Coolant",
         "image": coolant,
         "link": "https://example.com/products/coolant",
         "description": "A fluid used to regulate the temperature of an engine."
@@ -588,13 +588,13 @@ export const homeProduct = [
         "description": "Engine oils tailored for trucks."
     },
     {
-        "name": "Tractor Engine Oil",
+        "name": "Tractor Engine Oils",
         "image": tracktor,
         "link": "https://example.com/products/tractor-engine-oil",
         "description": "Engine oil specifically for tractors."
     },
     {
-        "name": "Steering Oil",
+        "name": "Steering Oils",
         "image": steeringoil,
         "link": "https://example.com/products/steering-oil",
         "description": "Oil used in power steering systems to ensure smooth operation."
