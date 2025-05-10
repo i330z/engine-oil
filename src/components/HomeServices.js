@@ -12,12 +12,12 @@ function HomeServices() {
       icon: <Fuel />,
     },
     {
-      title: "Thermal Power",
+      title: "DEF (Diesel Exhaust Fluid) Plant",
       description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
       icon: <Sun/>,
     },
     {
-      title: "Gas Flaring",
+      title: "Coolant Plant",
       description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
       icon: <Wind />,
     },
@@ -32,7 +32,7 @@ function HomeServices() {
       icon: <Beaker />,
     },
     {
-      title: "Methane Elimination",
+      title: "Greese Plant",
       description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
       icon: <Flame />,
     },
@@ -55,18 +55,18 @@ function HomeServices() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
         {/* Hero Section */}
-        <div className="max-w-2xl mb-20">
+        <div className="max-w-12xl mb-20">
           <span className="text-yellow-400 font-semibold mb-4 block">
             WHAT WE OFFER
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Innovating Oil,{' '}
-            <span className="block">Leading the Green</span>
-            <span className="block">Energy Transition.</span>
+          Clean Innovation, Leading the <br></br> Green Energy Transition in Lubricant Industry
+            {/* <span className="block"></span> */}
+            {/* <span className="block"></span> */}
           </h1>
-          <p className="text-gray-300 text-lg mb-8">
+          {/* <p className="text-gray-300 text-lg mb-8">
             Ut rhoncus penatibus si consequat habitant fames praesent est nibh nostra eros.
-          </p>
+          </p> */}
           {/* <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-md font-semibold transition-colors">
             Discover more
           </button> */}

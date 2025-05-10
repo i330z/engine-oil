@@ -36,8 +36,8 @@ import gearoilep140 from '../assets/products/gearoilep140.jpg'
 
 export const productList = [
     {
-        page_title: "DESIEL EXHAUST FLUID",
-        page_content: "CENTROL DIESEL EXHAUST FLUID (DEF) is a consumable used in automobiles equipped with a selective catalytic reduction (SCR) after-treatment system to reduce NOx concentrations in diesel engine exhaust emissions. Recommended and approved for all BS-VI vehicles like Tata, Leyland, Bharat Benz, Mahindra, Toyota, Ford, Isuzu, etc.",
+        page_title: "DEF (DESIEL EXHAUST FLUID)",
+        page_content: "CENTROL DEF (DIESEL EXHAUST FLUID) is a consumable used in automobiles equipped with a selective catalytic reduction (SCR) after-treatment system to reduce NOx concentrations in diesel engine exhaust emissions. Recommended and approved for all BS-VI vehicles like Tata, Leyland, Bharat Benz, Mahindra, Toyota, Ford, Isuzu, etc.",
         page_category: "ADBLUE",
         page_product: "D.E.F.",
         image: dieselexh,
@@ -49,7 +49,7 @@ export const productList = [
             "1000l"
         ],
         page_no: 1,
-        slug: "desiel-exhaust-fluid"
+        slug: "def-(diesel-exhaust-fluid)"
     },
     {
         page_title: "READY-TO-USE",
@@ -540,7 +540,7 @@ export const productList = [
 
 export const homeProduct = [
     {
-        "name": "Diesel Exhaust Fluid",
+        "name": "DEF (Diesel Exhaust Fluid)",
         "image": dieselexfluid,
         "link": "https://example.com/products/diesel-exhaust-fluid",
         "description": "A solution used in diesel vehicles to reduce harmful emissions."

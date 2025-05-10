@@ -66,10 +66,7 @@ export default function SideNav() {
               <Box className="w-8 h-8 mr-3" />
               {isSidebarOpen && <span>Products</span>}
             </Link>
-            <Link href="#" className={`flex items-center space-x-2 ${activeLink === '/services' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/services')}>
-              <Settings className="w-8 h-8 mr-3" /> {/* Changed icon to Settings */}
-              {isSidebarOpen && <span>Services</span>}
-            </Link>
+           
             <Link href="/contact" className={`flex items-center space-x-2 ${activeLink === '/contact' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/contact')}>
               <Phone className="w-8 h-8 mr-3" />
               {isSidebarOpen && <span>Contact</span>}
@@ -92,10 +89,7 @@ export default function SideNav() {
               <Box className="w-8 h-8 mr-3" />
               <span>Products</span>
             </Link>
-            <Link href="#" className={`flex items-center space-x-2 ${activeLink === '/services' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/services')}>
-              <Settings className="w-8 h-8 mr-3" /> {/* Changed icon to Settings */}
-              <span>Services</span>
-            </Link>
+            
             <Link href="#" className={`flex items-center space-x-2 ${activeLink === '/contact' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/contact')}>
               <Phone className="w-8 h-8 mr-3" />
               <span>Contact</span>

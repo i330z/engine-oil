@@ -18,43 +18,54 @@ import Four from '@/assets/four.png';
 import Five from '@/assets/five.png';
 import Six from '@/assets/six.png';
 
+import dieselexh from '../assets/products/dieselexh.jpg'
+import grease from '../assets/products/grease.jpg'
+import coolant from '../assets/products/coolant.jpg'
+import booster from '../assets/products/booster.jpg'
+import turbo15w from '../assets/products/turbo15w.jpg'
+import hydralics from '../assets/products/hydralics.jpg'
+
+
+
+
 function HomeProductSlider({ productlist = [] }) {
   // Dummy products
   const dummyProducts = [
     {
-      slug: "luxury-rose-perfume",
-      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
-      src: One,
-      alt: "Luxury Rose Perfume",
-      title: "Engine Oil",
+      slug: "grease",
+      src: grease,
+      alt: "GREASE",
+      title: "Grease",
     },
     {
-      slug: "citrus-fresh-scent",
-      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
-      src: Two,
-      alt: "Citrus Fresh Scent",
-      title: "Engine oil",
+      slug: "def",
+      src: dieselexh,
+      alt: "DEF",
+      title: "DEF ( Diesel Exhaust Fluid)",
     },
     {
-      slug: "woody-spice-blend",
-      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
-      src: Three,
-      alt: "Woody Spice Blend",
-      title: "Engine Oil",
+      slug: "coolants",
+      src: coolant,
+      alt: "COOLANTS",
+      title: "Coolants",
     },
     {
-      slug: "vanilla-amber-delight",
-      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
-      src: Four,
-      alt: "Vanilla Amber Delight",
-      title: "Engine Oil",
+      slug: "20w40-booster-engine-oil",
+      src: booster,
+      alt: "20w40 booster engine oil",
+      title: "20w40 booster engine oil",
     },
     {
-      slug: "floral-bouquet-eau",
-      // src: "https://assets.gulfoilltd.com/gulfindia/files/inline-images/gulf-powertrac-4t-engine-oil.webp",
-      src: Five,
-      alt: "Floral Bouquet Eau",
-      title: "Engine Oil",
+      slug: "15w40-turbo-engine-oils",
+      src: turbo15w,
+      alt: "15w40 turbo engine oils",
+      title: "15w40 turbo engine oils",
+    },
+    {
+      slug: "aw68-hydraulic-oil",
+      src: hydralics,
+      alt: "Aw68 Hydraulic Oil",
+      title: "Aw68 Hydraulic Oil",
     },
   ];
 
@@ -66,13 +77,13 @@ function HomeProductSlider({ productlist = [] }) {
       <div className="xl:col-span-4 lg:col-span-12 md:col-span-12 col-span-12 md:px-40 px-10 md:py-60 py-16  flex items-center justify-center">
         <div>
           <span className="uppercase text-crimson mb-2 inline-block tracking-widest text-yellow-500">
-          Premium Engine Oils
+            Premium Engine Oils
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl mb-5 font-crimson font-semibold">
-          Engineered for Excellence
+            Engineered for Excellence
           </h2>
           <p className="lg:text-xl text-md text-gray-600 font-manrope">
-          Designed for Efficiency, Trusted for Protection.
+            Designed for Efficiency, Trusted for Protection.
           </p>
         </div>
       </div>
@@ -120,7 +131,7 @@ function HomeProductSlider({ productlist = [] }) {
                   </Link>
                 </div>
                 <div className="text-center relative mt-3">
-                  <h3 className="xl:text-2xl lg:text-2xl md:text-2xl text-xl font-crimson text-black">
+                  <h3 className="xl:text-2xl lg:text-2xl md:text-2xl text-xl font-crimson text-black capitalize">
                     {item.title}
                   </h3>
                 </div>

@@ -1,6 +1,6 @@
 export const homeProduct = [
     {
-        "name": "Diesel Exhaust Fluid",
+        "name": "DEF (Diesel Exhaust Fluid)",
         "image": "https://example.com/images/diesel-exhaust-fluid.jpg",
         "link": "https://example.com/products/diesel-exhaust-fluid",
         "description": "A solution used in diesel vehicles to reduce harmful emissions."

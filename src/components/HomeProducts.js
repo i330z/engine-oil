@@ -7,8 +7,8 @@ function HomeProducts() {
     <div className="min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 sm:px-1 lg:px-2 py-20">
         <div className="flex justify-center flex-col items-center mb-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">Engine Oil Products</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, alias.</p>
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Automotive Lubricants</h1>
+          <p>Oils, Greases, DEF, Coolants.</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
