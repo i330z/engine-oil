@@ -13,7 +13,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${product.page_title} - Castrol`,
+    title: `${product.page_title} - Centrol`,
     description: product.page_content,
     openGraph: {
       title: product.page_title,
@@ -27,11 +27,11 @@ export async function generateMetadata({ params }) {
         },
       ],
       type: 'website',
-      siteName: 'Castrol',
+      siteName: 'Centrol',
     },
     // Additional product-specific metadata
     other: {
-      'product:brand': 'Castrol',
+      'product:brand': 'Centrol',
       'product:category': product.page_category,
     },
   };
