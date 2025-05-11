@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
       description: product.page_content,
       images: [
         {
-          url: product.image.src,
+          url: '/' + product.image.src,
           width: 800,
           height: 600,
           alt: product.page_title,
