@@ -6,9 +6,9 @@ import Image from 'next/image';
 
 export default function WhatsAppButtons({ product }) {
   const handleWhatsAppClick = () => {
-    const message = `Check out this product: ${product.page_title}\n\n` +
-            `View it here: https://centrol.in${window.location.pathname}`;
-    const demoNumber = '+918638122677'; // Replace with a random demo number
+    const message = `Enquiry for: ${product.page_title}\n\n` +
+            `https://centrol.in${window.location.pathname}`;
+    const demoNumber = '+916002324365'; // Replace with a random demo number
     const whatsappURL = `https://wa.me/${demoNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
   };
