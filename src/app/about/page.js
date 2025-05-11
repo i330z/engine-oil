@@ -8,7 +8,9 @@ const About = () => {
         <h1 className='text-5xl font-bold relative text-orange-500'>About Centrol</h1>
       </div>
       <div className='mt-10 container mx-auto p-6'>
-        <p className='md:text-xl text-lg text-gray-700 leading-8'><strong>Cleanovate Technology LLP</strong> is committed to manufacturing high-quality lubricants and Diesel Exhaust Fluid (D.E.F.). Our state-of-the-art facility near Guwahati, Assam, leverages the region's resources to produce exceptional products while solving cost, logistics and environmental problems.</p>
+        <p className='md:text-xl text-lg text-gray-700 leading-8'>
+          <strong>Cleanovate Technology LLP</strong> is a forward-thinking company specializing in the production of premium lubricants and Diesel Exhaust Fluid (D.E.F.). Our advanced manufacturing facility near Guwahati, Assam, is strategically positioned to address logistical challenges while promoting sustainability and innovation in the lubricant industry.
+        </p>
       </div>
     </div>
 

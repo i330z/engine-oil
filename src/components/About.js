@@ -12,9 +12,9 @@ function AboutHomePage() {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                   Powering Progress Through Eco-Friendly Energy.
                 </h1>
-                <p className="text-gray-600">
+                {/* <p className="text-gray-600">
                   Elit bibendum hac lorem class enim posuere auctor rhoncus felis nam pede. Fringilla ridiculus porttitor habitant per faucibus lacinia senectus.
-                </p>
+                </p> */}
               </div>
     
               {/* Image and Text Section */}
@@ -29,10 +29,10 @@ function AboutHomePage() {
                 </div> */}
                 <div className="space-y-4">
                   <p className="text-gray-600">
-                    Massa sem efficitur aliquet accumsan suspendisse sl. Potenti sociosqu nulla at porta vestibulum nisi nibh mi justo penatibus. Diam ultricies curabitur eget nibh nostra. Rutrum ac parturient ultricies turpis est velit.
+                    At Centrol, we are dedicated to delivering innovative and eco-friendly energy solutions. Our mission is to redefine the lubricant industry with sustainable practices and cutting-edge technology.
                   </p>
                   <p className="text-gray-600">
-                    Ultricies orci at fringilla finibus erat senectus aptent enim lobortis lectus. Ultrices aptent conubia proin mollis luctus iaculis eleifend. Vulputate nec ad tellus taciti semper massa mus bibendum nam.
+                    Our products are designed to meet the highest standards of quality and performance, ensuring reliability and efficiency for our customers. We are committed to driving progress while minimizing environmental impact.
                   </p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ function AboutHomePage() {
                   Sustainable Energy for a Cleaner Tomorrow
                 </h3>
                 <p className="text-white/90">
-                  Conubia urna lacinia luctus imperdiet consectetuer rhoncus cubilia
+                  <p className="text-white/80 mt-2">Join us in shaping a sustainable future with innovative energy solutions.</p>
                 </p>
               </div>
             </div>
