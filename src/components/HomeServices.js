@@ -8,32 +8,32 @@ function HomeServices() {
   const services = [
     {
       title: "Petroleum Refinery",
-      description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      description: "Transforming crude oil into valuable fuels and products with advanced refining processes.",
       icon: <Fuel />,
     },
     {
       title: "DEF (Diesel Exhaust Fluid) Plant",
-      description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
-      icon: <Sun/>,
+      description: "Producing high-quality DEF to reduce emissions and ensure cleaner diesel engine operations.",
+      icon: <Sun />,
     },
     {
       title: "Coolant Plant",
-      description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      description: "Manufacturing premium coolants to maintain engine efficiency and prevent overheating.",
       icon: <Wind />,
     },
     {
       title: "Oil Pump",
-      description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      description: "Delivering reliable oil pumping solutions for seamless industrial and automotive applications.",
       icon: <Droplet />,
     },
     {
       title: "Chemical Factory",
-      description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      description: "Innovating chemical solutions to meet diverse industrial and environmental requirements.",
       icon: <Beaker />,
     },
     {
       title: "Greese Plant",
-      description: "Efficitur lobortis amet faucibus feugiat aptent convallis cubilia bibendum nostra nulla arcu",
+      description: "Producing high-performance greases for smooth machinery operation and reduced wear.",
       icon: <Flame />,
     },
   ];
