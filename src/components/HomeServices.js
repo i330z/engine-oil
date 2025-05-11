@@ -39,7 +39,7 @@ function HomeServices() {
   ];
 
   return (
-    <main className="min-h-screen relative">
+    <main className="relative pb-10">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
