@@ -12,6 +12,8 @@ export async function generateMetadata({ params }) {
     return { title: 'Product Not Found' };
   }
 
+  const imageUrl = `https://centrol.in/${product.image.src}`; // Construct absolute URL
+
   return {
     title: `${product.page_title} - Centrol`,
     description: product.page_content,
@@ -20,7 +22,7 @@ export async function generateMetadata({ params }) {
       description: product.page_content,
       images: [
         {
-          url: '/' + product.image.src,
+          url: imageUrl,
           width: 800,
           height: 600,
           alt: product.page_title,
