@@ -54,7 +54,7 @@ function HomeServices() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-16 md:py-24">
-        {/* Hero Section */}
+        {/* Hero Section */} 
         <div className="max-w-12xl mb-20">
           <span className="text-yellow-400 font-semibold mb-4 block">
             WHAT WE OFFER

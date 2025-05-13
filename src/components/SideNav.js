@@ -90,11 +90,11 @@ export default function SideNav() {
               <span>Products</span>
             </Link>
             
-            <Link href="#" className={`flex items-center space-x-2 ${activeLink === '/contact' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/contact')}>
+            <Link href="/contact" className={`flex items-center space-x-2 ${activeLink === '/contact' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/contact')}>
               <Phone className="w-8 h-8 mr-3" />
               <span>Contact</span>
             </Link>
-            <Link href="#" className={`flex items-center space-x-2 ${activeLink === '/about' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/about')}>
+            <Link href="/about" className={`flex items-center space-x-2 ${activeLink === '/about' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/about')}>
               <Info className="w-8 h-8 mr-3" />
               <span>About</span>
             </Link>
