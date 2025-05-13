@@ -10,9 +10,9 @@ function Hero() {
         <div className='h-[100vh] relative flex flex-col justify-end lg:overflow-hidden'>
             <video src="https://videos.pexels.com/video-files/7564888/7564888-uhd_2732_1440_25fps.mp4" className='absolute top-0 left-0 w-full h-full object-cover' autoPlay loop muted></video>
             <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-900 to-transparent'></div>
-            <div className='absolute top-0 left-0 h-full flex flex-col justify-center lg:p-32 lg:w-full px-5'>
+            <div className='absolute top-0 left-0 h-full flex flex-col justify-center lg:p-32 lg:w-full px-5 text-center md:text-left'>
                 {/* <p className='text-yellow-500 lg:text-lg text-xl tracking-wider mb-5'>AUTOMOTIVE LUBRICANTS</p> */}
-                <h1 className='text-white lg:text-8xl text-5xl font-bold'>Centrol <span className='font-extralight'>|</span>  <span className='font-light'> Innovation in Motion </span></h1>
+                <h1 className='text-white lg:text-8xl md:text-6xl text-5xl font-bold'>Centrol <span className='font-extralight hidden md:inline'>|</span>  <span className='font-light'> Innovation in Motion </span></h1>
                 {/* <p className='text-gray-50 lg:text-xl mt-5'>Premium Engine Oils for Unmatched Durability</p> */}
                 <Link href={'/products'}>
                 <button className='w-60 bg-yellow-500 py-4 mt-10 mx-3 rounded-sm'>Explore Products</button>
