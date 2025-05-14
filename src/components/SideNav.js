@@ -2,6 +2,8 @@
 import { Home, Box, Phone, Info, Menu, Settings } from 'lucide-react';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import CentrolLogo from '../assets/centrol-logo.png';
+import Image from 'next/image';
 
 export default function SideNav() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
@@ -40,7 +42,10 @@ export default function SideNav() {
     <>
       {isMobile ? ( 
         <div className="mobile-nav bg-transparent z-10 flex items-center justify-between fixed top-0 left-0 right-0 px-5 text-white w-full">
-          <div className="logo">Centrol</div>
+          <div className="logo">
+              <Image src={CentrolLogo.src} alt="Centrol Logo" width={140} height={20} className="w-90 h-10" />
+
+          </div>
           <button 
             className="p-6 pr-0 text-2xl font-bold flex items-center hamburger-menu"
             onClick={toggleNav}
@@ -55,7 +60,9 @@ export default function SideNav() {
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}
           >
             <Menu className="w-6 h-6" />
-            {isSidebarOpen && <span className='pl-5'>Centrol</span>}
+            {isSidebarOpen && <span className='pl-5'>
+              <Image src={CentrolLogo.src} alt="Centrol Logo" width={140} height={20} className="w-90 h-10" />
+              </span>}
           </button>
           <nav className="flex flex-col p-6 space-y-6 flex-grow justify-center">
             <Link href="/" className={`flex items-center space-x-2 ${activeLink === '/' ? 'text-orange-500' : ''}`} onClick={() => handleLinkClick('/')}>
