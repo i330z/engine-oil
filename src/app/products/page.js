@@ -19,7 +19,7 @@ function ProductPage() {
                 <h1 className='text-6xl font-bold relative text-orange-500'>Our Products</h1>
             </div>
             <div className='container mx-auto p-6 mt-10 text-gray-700'>
-                <p className='md:text-xl text-lg text-gray-700 leading-8'>As a dynamic new entrant in the industrial lubrication sector, Cantrol is driven by innovation, precision, and a commitment to redefining industry standards. Built on fresh expertise and cutting-edge technology, we deliver high-performance lubricants tailored to modern industrial demands—from hydraulic systems and compressors to enclosed gearboxes and pneumatic tools. While we may be new, our focus on quality, reliability, and responsive technical support ensures seamless integration into your operations, minimizing downtime and maximizing efficiency.</p>
+                <p className='md:text-xl text-lg text-gray-700 leading-8'>As a dynamic new entrant in the industry lubrication sector, Centrol is driven by innovation, precision, and a commitment to redefining industry standards. Built on fresh expertise and cutting-edge technology, we deliver high-performance lubricants tailored to modern industry demands—from hydraulic systems and compressors to enclosed gearboxes and pneumatic tools. While we may be new, our focus on quality, reliability, and responsive technical support ensures seamless integration into your operations, minimizing downtime and maximizing efficiency.</p>
                 <div className='mt-10'>
                     {
                         Object.keys(groupedProducts).map((category, index) => (
