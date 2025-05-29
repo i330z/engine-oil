@@ -1,7 +1,8 @@
 import React from 'react'
-import {productList} from '@/constants/data'
+import { productList } from '@/constants/data'
 import Image from 'next/image'
 import Link from 'next/link';
+import Bghero from '@/assets/hero.jpeg'
 
 function ProductPage() {
     const groupedProducts = productList.reduce((acc, product) => {
@@ -14,7 +15,10 @@ function ProductPage() {
 
     return (
         <div>
-            <div className='relative h-80 bg-black text-white flex justify-center items-center w-full bg-[url("https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?cs=srgb&dl=pexels-daniel-andraski-197681005-13065690.jpg&fm=jpg")] bg-cover bg-center bg-no-repeat'>
+            <div
+                className='relative h-80 bg-black text-white flex justify-center items-center w-full bg-cover bg-center bg-no-repeat'
+                style={{ backgroundImage: `url(${Bghero.src || Bghero})` }}
+            >
                 <div className='absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-500 to-blue-900 opacity-50'></div>
                 <h1 className='text-6xl font-bold relative text-orange-500'>Our Products</h1>
             </div>
@@ -29,11 +33,11 @@ function ProductPage() {
                                     {
                                         groupedProducts[category].map((product, index) => (
                                             <Link href={`/products/${product.slug}`} key={index}>
-                                            <div key={index} className='col-span-1 p-4 relative rounded-md bg-gray-50/50 group'>
-                                                <Image src={product.image.src} alt={product.name} width={400} height={400} className='w-full h-98 object-contain rounded-md'/>
-                                                <h3 className='text-xl font-semibold text-gray-900 my-2 group-hover:text-blue-800'>{product.page_title}</h3>
-                                                <h4 className='text-md font-semibold text-gray-400 my-2 group-hover:text-yellow-500'>{product.page_product}</h4>
-                                            </div>
+                                                <div key={index} className='col-span-1 p-4 relative rounded-md bg-gray-50/50 group'>
+                                                    <Image src={product.image.src} alt={product.name} width={400} height={400} className='w-full h-98 object-contain rounded-md' />
+                                                    <h3 className='text-xl font-semibold text-gray-900 my-2 group-hover:text-blue-800'>{product.page_title}</h3>
+                                                    <h4 className='text-md font-semibold text-gray-400 my-2 group-hover:text-yellow-500'>{product.page_product}</h4>
+                                                </div>
                                             </Link>
                                         ))
                                     }
